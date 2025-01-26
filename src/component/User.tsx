@@ -1,11 +1,24 @@
-type userProps = { name: string; age: number; isRegisterd: boolean };
+type UserProps = {
+  user: {
+    name: string;
+    age: number;
+    isRegisterd: boolean;
+    lang: string[];
+  };
+};
 
-const User = ({ name, age, isRegisterd }: userProps) => {
+const User = ({ user }: UserProps) => {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h2>{name}</h2>
-      <h2>{age} years old</h2>
-      {isRegisterd ? <p>Registered User</p> : <p>Not Registerd User</p>}
+    <div style={{ textAlign: 'center', border: '1px solid', margin: '0.5rem' }}>
+      <h2>{user.name}</h2>
+      <h2>{user.age} years old</h2>
+      {user.isRegisterd ? <p>Registered User</p> : <p>Not Registerd User</p>}
+      <p>
+        Spacks:
+        {user.lang.map((language, index) => {
+          return <span key={index}> {language} </span>;
+        })}
+      </p>
     </div>
   );
 };
