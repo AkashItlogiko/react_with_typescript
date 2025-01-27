@@ -1,10 +1,11 @@
 import './App.css';
-import NewUser from './component/NewUser';
+import Counter from './component/Counter';
+ 
 
 const App = () => {
   return (
     <div style={{ textAlign: 'center' }}>
-      <NewUser />
+     <Counter/>
     </div>
   );
 };
