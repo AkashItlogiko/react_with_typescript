@@ -1,16 +1,23 @@
+import { useState } from 'react';
 import './App.css';
-import ButtonStyle from './component/ButtonStyle';
 
-const btnStyle = { backgroundColor: 'green' };
+type User = {
+  id: number;
+  name: string;
+  email: string;
+};
 
-function App() {
+const App = () => {
+  const [user, setUser] = useState<User>({} as User);
+  const handleAddUser = () => {
+    setUser({ id: 1, name: 'Akash', email: 'akash@gmail.com' });
+  };
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1>Children props</h1>
-      {/* <Button>click me</Button> */}
-      <ButtonStyle btnStyle={btnStyle} />
+      <button onClick={handleAddUser}>AddUser</button>
+      <p>{user.name}</p>
     </div>
   );
-}
+};
 
 export default App;
