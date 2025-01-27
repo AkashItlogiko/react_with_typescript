@@ -1,24 +1,25 @@
-import User from './component/User';
+import UserDemo from './component/UserDemo';
 
-const user1 = {
-  name: 'Dip',
-  age: 1,
-  isRegisterd: false,
-  lang: ['Bangla', 'English'],
-};
-const user2 = {
-  name: 'Jony',
-  age: 2,
-  isRegisterd: true,
-  lang: ['English', 'Hinde'],
-};
+const users = [
+  {
+    id: 1,
+    name: 'anisul islam',
+    email: 'anisul2010yaho.com',
+    age: 32,
+  },
+  {
+    id: 2,
+    name: 'rakibul islam',
+    email: 'rakibul2010.com',
+    age: 32,
+  },
+];
 
 function App() {
   return (
-    <div>
-      <h1 style={{ textAlign: 'center' }}>User Management</h1>
-      <User user={user1} />
-      <User user={user2} />
+    <div style={{ textAlign: 'center' }}>
+      <h1>User Management</h1>
+      <UserDemo users={users} />
     </div>
   );
 }
