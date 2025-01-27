@@ -1,3 +1,3 @@
-# typescript-typing-children-props
+# typing style props
 
-[typescript-typing-children-props](https://www.youtube.com/watch?v=ASCkwl61Kqo&list=PLgH5QX0i9K3ruhkxHelhyahHEOH_82bGx&index=6)
+[typing style props](https://www.youtube.com/watch?v=hrBpH9ubhY8&list=PLgH5QX0i9K3ruhkxHelhyahHEOH_82bGx&index=7)
