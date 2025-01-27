@@ -1,6 +1,6 @@
-# typing-events
+# typing form event
 
-[typing-events](https://www.youtube.com/watch?v=ljfh0dtEAjg&list=PLgH5QX0i9K3ruhkxHelhyahHEOH_82bGx&index=9)
+[typing form event](https://www.youtube.com/watch?v=y7YpePrc1hI&list=PLgH5QX0i9K3ruhkxHelhyahHEOH_82bGx&index=10)
 
 amra jemon onChange , onClick event gulo use kori oi event gulor sathe ki vabe
 Type add korte hoy ta ai branch ar moddhe kore dekhano hoyeche
